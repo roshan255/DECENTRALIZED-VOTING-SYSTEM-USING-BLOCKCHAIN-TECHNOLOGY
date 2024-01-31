@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EVote</title>
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+
+  <link href="css/landing.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/login-page.css">
+
+  <header>
+    <div id="navbar-custom"></div>
+  </header>
+
+
+</head>
+
+<body>
+  <div id="main-body">
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid aadhar_no <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="aadhar_no" required>
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" required>
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  
+  </main>
+</div>
+  <script src="js/login.js"></script>
+    <script src="js/navbarl.js"></script>
+    <script src="js/otp.js"></script>
+
+</body>
+
+</html>
